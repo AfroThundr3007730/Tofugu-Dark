@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Tofugu Dark
 @namespace      github.com/AfroThundr3007730
-@version        1.0.0
+@version        1.0.1
 @description    Dark theme for Tofugu
 @author         AfroThundr
 @homepageURL    https://gist.github.com/AfroThundr3007730/2a84cb9672137dfe505a3aa3409041fc
@@ -39,7 +39,9 @@
     border-color: #777;
   }
   img {
-    /* filter: invert(100%) hue-rotate(180deg); */
     filter: brightness(60%);
+  }
+  img:hover {
+    filter: brightness(100%);
   }
 }
