@@ -1,0 +1,45 @@
+/* ==UserStyle==
+@name           Tofugu Dark
+@namespace      github.com/AfroThundr3007730
+@version        1.0.0
+@description    Dark theme for Tofugu
+@author         AfroThundr
+@homepageURL    https://gist.github.com/AfroThundr3007730/2a84cb9672137dfe505a3aa3409041fc
+@updateURL      https://gist.githubusercontent.com/AfroThundr3007730/2a84cb9672137dfe505a3aa3409041fc/raw/master/tofugu-dark.user.css
+@license        CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("www.tofugu.com") {
+  body {
+    color: #ccc;
+    background-color: #222;
+  }
+  .navbar-light .navbar-nav .nav-link, .fa {
+    color: #ccc;
+  }
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  footer.document a:not(:hover) {
+    color: #ccc !important;
+  }
+  .navbar .nav-item.search, .bg-faded, footer.document, footer.document ul li a,
+  footer.document ul li.copyright span, footer.document ul li.heading span,
+  .search-area ol.article-index-list li a:hover,
+  .table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: #333;
+  }
+  .search-area, .bg-angled, .article .article-content, hr::after {
+    background-color: #222;
+  }
+  code, .blog-post-highlight, .individual-review {
+    background-color: #181818;
+  }
+ .table-bordered th, .table-bordered td {
+    border-color: #777;
+  }
+  img {
+    /* filter: invert(100%) hue-rotate(180deg); */
+    filter: brightness(60%);
+  }
+}
