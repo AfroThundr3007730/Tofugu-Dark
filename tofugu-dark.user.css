@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Tofugu Dark
 @namespace      github.com/AfroThundr3007730
-@version        1.0.3
+@version        1.0.4
 @description    Dark theme for Tofugu
 @author         AfroThundr
 @homepageURL    https://gist.github.com/AfroThundr3007730/2a84cb9672137dfe505a3aa3409041fc
@@ -39,10 +39,11 @@
   .table-striped tbody tr:nth-of-type(2n+1) {
     background-color: var(--gray-3);
   }
- .table-bordered th, .table-bordered td, .table th, .table td {
+ .table-bordered th, .table-bordered td, .table th, .table td, .table thead th {
     border-color: var(--gray-7);
   }
   img {
+    background-color: var(--white);
     filter: brightness(60%);
   }
   img:hover {
