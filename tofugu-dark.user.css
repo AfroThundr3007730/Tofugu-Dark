@@ -1,12 +1,13 @@
 /* ==UserStyle==
-@name           Tofugu Dark
-@namespace      github.com/AfroThundr3007730
-@version        1.0.4
-@description    Dark theme for Tofugu
-@author         AfroThundr
-@homepageURL    https://gist.github.com/AfroThundr3007730/2a84cb9672137dfe505a3aa3409041fc
-@updateURL      https://gist.githubusercontent.com/AfroThundr3007730/2a84cb9672137dfe505a3aa3409041fc/raw/master/tofugu-dark.user.css
-@license        CC-BY-SA-4.0
+@name         Tofugu Dark
+@version      1.0.4
+@description  Dark theme for Tofugu
+@namespace    AfroThundr3007730
+@author       AfroThundr
+@homepageURL  https://github.com/AfroThundr3007730/Tofugu-Dark
+@supportURL   https://github.com/AfroThundr3007730/Tofugu-Dark/issues
+@updateURL    https://raw.githubusercontent.com/AfroThundr3007730/Tofugu-Dark/master/tofugu-dark.user.css
+@license      GPL-3.0
 ==/UserStyle== */
 @-moz-document domain("www.tofugu.com") {
   :root {
@@ -15,7 +16,7 @@
     --gray-7: #777;
     --gray-c: #ccc;
     --gray-18: #181818;
-    --white: #fff
+    --white: #fff;
   }
   body, .navbar-light .navbar-nav .nav-link, .fa {
     color: var(--gray-c);
@@ -35,12 +36,15 @@
   }
   .navbar .nav-item.search, .bg-faded, footer.document, footer.document ul li a,
   footer.document ul li.copyright span, footer.document ul li.heading span,
-  .search-area ol.article-index-list li a:hover, .table-hover tbody tr:hover,
+  div[class] ol.article-index-list li a:hover, .table-hover tbody tr:hover,
   .table-striped tbody tr:nth-of-type(2n+1) {
     background-color: var(--gray-3);
   }
- .table-bordered th, .table-bordered td, .table th, .table td, .table thead th {
+  .table-bordered th, .table-bordered td, .table th, .table td, .table thead th {
     border-color: var(--gray-7);
+  }
+  body.index .additional-posts h2 .highlight {
+    background-color: transparent;
   }
   img {
     background-color: var(--white);
